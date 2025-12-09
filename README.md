@@ -13,7 +13,7 @@ Dependencias:
 El objetivo principal es controlar una matriz de 64x64 pixeles con la interfaz HUB75e, usando una FPGA Lattice 5A-75e V8.2.
 Esta versión es sencilla, donde solo se muestra 1 imagen a 5bpp o 8bpp.
 [Version con solo 1bpp.](https://github.com/Fdiaz718/Led-panel-1bpp)
-[Version donde cambia la imagen cada vez que se oprime le botón fisico de la fpga.](https://github.com/Fdiaz718/Panel-Led-8bpp)
+[Version donde cambia la imagen cada vez que se oprime le botón fisico de la fpga.](https://github.com/Fdiaz718/Panel-Led-Image-Changer)
 [Test sencillo de los leds.](https://github.com/Fdiaz718/Test-leds)
 
 Inicialmente se tenian unas matrices que utilizaban integrados ICN2038S, pero no se logro hacerlas funcionar, probablemente estos errores se deban a problemas de hardware de las pantallas ya que no eran consistentes en como funcionaban y cada vez que se les conectaba hacian algo diferente apesar de no haber hecho cambios al codigo. Hablando con el profesros se habia llegado al acuerdo de que el proyecto seria hacer funcionar esas pantallas en especifico, pero se abandono la idea de hacer funcionar esas pantallas, por lo que se volvio a la idea inicial de hacer que cambiara de imagen cada vez que se oprima el botón. 
