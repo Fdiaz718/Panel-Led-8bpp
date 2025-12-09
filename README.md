@@ -18,6 +18,10 @@ Test sencillo de los leds.
 
 Inicialmente se tenian unas matrices que utilizaban integrados ICN2038S, pero no se logro hacerlas funcionar, probablemente estos errores se deban a problemas de hardware de las pantallas ya que no eran consistentes en como funcionaban y cada vez que se les conectaba hacian algo diferente apesar de no haber hecho cambios al codigo. Hablando con el profesros se habia llegado al acuerdo de que el proyecto seria hacer funcionar esas pantallas en especifico, pero se abandono la idea de hacer funcionar esas pantallas, por lo que se volvio a la idea inicial de hacer que cambiara de imagen cada vez que se oprima el botón. 
 
+## Diagramas
+Se incluen los diagramas [aqui](https://github.com/Fdiaz718/Panel-Led-8bpp/blob/47a3fab53f9a34ae6aadb2a624b2ab448935afd0/Proyecto%20digital_251125_101825%20(1).PDF)
+
+Estas fueron versiones iniciales del proyecto donde el objetivo era darse una idea de como funcionaria la matriz y sus componentes, no es una version fiel a la final.
 ## Explicación modulos
 ### scan_counter.v
 Define la posicion de los pixeles que se estan mostrando en la pantalla. Funciona como un generador de coordenadas cíclicas que sincroniza la lectura de memoria, el barrido del panel y la modulación de brillo.
