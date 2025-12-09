@@ -1,4 +1,4 @@
-# Pantalla LED a 24bpp
+# Pantalla LED a 24bpp (8bpp por canal)
 Integrantes:
 * Felipe Diaz Gordillo - fdiazgo@unal.edu.co - 1013100552
 
