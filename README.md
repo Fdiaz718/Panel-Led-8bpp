@@ -1,7 +1,8 @@
 # Pantalla LED a 24bpp (8bpp por canal)
 Integrantes:
 * Felipe Diaz Gordillo - fdiazgo@unal.edu.co - 1013100552
-
+* Pablo Alejandro Paez Linares - ppaezl@unal.edu.co - 1011082418
+* Daniel Castro Gonzales - dcastrogonunal.edu.co - 1052836051
 Dependencias:
 * [Yosys](https://github.com/YosysHQ/yosys)
 * [Nextpnr-ecp5](https://github.com/YosysHQ/nextpnr)
