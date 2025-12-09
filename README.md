@@ -45,10 +45,10 @@ Este módulo gestiona las señales de control del protocolo HUB75. Se utiliza `~
 
 ### top.v
 Encapsula la arquitectura completa del controlador. Da la interconexión de los sub-módulos y la gestión de las interfaces de entrada/salida (I/O).
-1.  **Coordenadas:** Instancia `scan_counters` para obtener la posición actual de barrido (`col`, `row`) y el nivel de modulación (`pwm_level`).
-2.  **Carga de Datos:** Usa las coordenadas para solicitar a `panel_memory` los datos RGB correspondientes a la mitad superior e inferior del panel simultáneamente.
-3.  **Procesamiento de Color:** Pasa los datos crudos y el nivel PWM a `panel_pwm`, obteniendo las señales digitales R, G, B puras.
-4.  **Sincronización:** Pasa las señales de control a `delay_unit` para alinear el reloj y generar los pulsos de `LATCH` y `OE` con la temporización por el hardware.
+**Coordenadas:** Instancia `scan_counters` para obtener la posición actual de barrido (`col`, `row`) y el nivel de modulación (`pwm_level`).
+**Carga de Datos:** Usa las coordenadas para solicitar a `panel_memory` los datos RGB correspondientes a la mitad superior e inferior del panel simultáneamente.
+**Procesamiento de Color:** Pasa los datos crudos y el nivel PWM a `panel_pwm`, obteniendo las señales digitales R, G, B puras.
+**Sincronización:** Pasa las señales de control a `delay_unit` para alinear el reloj y generar los pulsos de `LATCH` y `OE` con la temporización por el hardware.
 
 
 
